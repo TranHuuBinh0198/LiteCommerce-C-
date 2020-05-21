@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewBag.Title = "Manager Employee";
+}
+<div class="box box-primary">
+    <div class="box-header with-border">
+        <h3 class="box-title">Tìm Kiếm</h3>
+    </div>
+    <div class="input-group margin" style="padding-bottom: 10px">
+        <input type="text" class="form-control">
+        <span class="input-group-btn">
+            <button type="button" class="btn btn-info btn-flat">Go!</button>
+        </span>
+    </div>
+</div>
+<div class="container-fluid row">
+    <div class="col-lg-6">
+        There are 1000
+    </div>
+    <div class="col-lg-6 text-right" style="padding-bottom:10px">
+        <div class="btn-group">
+            <a href="~/Employee/input" class="btn btn-primary">Add Employees</a>
+            <a href="~/Employee/input" class="btn btn-info">Edit Employees</a>
+            <a href="~/Employee" class="btn btn-warning">Delete Employees</a>
+        </div>
+    </div>
+</div>
+<div class="box box-success">
+    <div class="box-body">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>
+                        <input type="checkbox" />
+                    </th>
+                    <th>#</th>
+                    <th>LastName</th>
+                    <th>FristName</th>
+                    <th>Title</th>
+                    <th>BirthDate</th>
+                    <th>HireDate</th>
+                    <th>See details</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 1; i <= 4; i++)
+                {
+                    <tr>
+                        <th>
+                            <input type="checkbox" />
+                        </th>
+                        <td>1</td>
+                        <td>Davolio</td>
+                        <td>Nancy</td>
+                        <td>Sales Representative</td>
+                        <td>1959-01-07 00:00:00.000</td>
+                        <td>2002-05-31 00:00:00.000</td>
+                        <td>
+                            <a style="color:#ffd800; font-weight:bold; display: block; font-size:large; padding-top:inherit " href="~/Order/List/@i"><i class="fa fa-bars"></i></a>
+                        </td>
+                        <td>
+                            <a style="color:#ffd800; font-weight:bold; display: block; font-size:large; padding-top:inherit " href="~/Order/Input/@i"><i class="fa fa-edit"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="box-footer clearfix">
+        <ul class="pagination pagination-sm no-margin pull-right">
+            <li><a href="#">«</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">»</a></li>
+        </ul>
+    </div>
+</div>

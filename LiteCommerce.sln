@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{161FAEF1-F01A-47F9-95E3-878CE87CD503}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{09C512CB-51D6-43CE-8508-675CF8F7552F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteCommerce.Admin", "LiteCommerce.Admin\LiteCommerce.Admin.csproj", "{B57210A1-AC76-46FD-BA18-5CE659DBD8E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteCommerce.DomainModels", "LiteCommerce.DomainModels\LiteCommerce.DomainModels.csproj", "{FE754F55-2B79-487E-A3E3-87A23B46CE6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteCommerce.DataLayers", "LiteCommerce.DataLayers\LiteCommerce.DataLayers.csproj", "{6AEC885B-D152-463C-B40A-95C5BC439326}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteCommerce.BusinessLayers", "LiteCommerce.BusinessLayers\LiteCommerce.BusinessLayers.csproj", "{605B49D9-C340-44D3-885A-D1A8BAEF6AA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B57210A1-AC76-46FD-BA18-5CE659DBD8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B57210A1-AC76-46FD-BA18-5CE659DBD8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B57210A1-AC76-46FD-BA18-5CE659DBD8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B57210A1-AC76-46FD-BA18-5CE659DBD8E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE754F55-2B79-487E-A3E3-87A23B46CE6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE754F55-2B79-487E-A3E3-87A23B46CE6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE754F55-2B79-487E-A3E3-87A23B46CE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE754F55-2B79-487E-A3E3-87A23B46CE6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEC885B-D152-463C-B40A-95C5BC439326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEC885B-D152-463C-B40A-95C5BC439326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEC885B-D152-463C-B40A-95C5BC439326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEC885B-D152-463C-B40A-95C5BC439326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{605B49D9-C340-44D3-885A-D1A8BAEF6AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605B49D9-C340-44D3-885A-D1A8BAEF6AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605B49D9-C340-44D3-885A-D1A8BAEF6AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605B49D9-C340-44D3-885A-D1A8BAEF6AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B57210A1-AC76-46FD-BA18-5CE659DBD8E2} = {161FAEF1-F01A-47F9-95E3-878CE87CD503}
+		{FE754F55-2B79-487E-A3E3-87A23B46CE6E} = {09C512CB-51D6-43CE-8508-675CF8F7552F}
+		{6AEC885B-D152-463C-B40A-95C5BC439326} = {09C512CB-51D6-43CE-8508-675CF8F7552F}
+		{605B49D9-C340-44D3-885A-D1A8BAEF6AA8} = {09C512CB-51D6-43CE-8508-675CF8F7552F}
+	EndGlobalSection
+EndGlobal
